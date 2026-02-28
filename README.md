@@ -1,7 +1,6 @@
 # Angry Bird Clone
 ##Created by
-- [Anveshan Khanna](https://github.com/AnveshanK)
-- [Ramneek Uttam](https://www.github.com/ramneekuttam)
+- [Md Raiyaan Tarique](https://www.github.com/RynTrq)
 ```markdown
 # 🐦 Angry Birds Game (LibGDX + Java)
 
@@ -25,7 +24,7 @@ To set up, run, and test the project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ramneekuttam/angrybird
+   git clone https://github.com/RynTrq/Angry-Bird-Game.git
    ```
 
 2. **Open in IntelliJ:**
