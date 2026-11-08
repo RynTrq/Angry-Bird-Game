@@ -1,7 +1,6 @@
 # Angry Bird Clone
-##Created by
+## Created by
 - [Md Raiyaan Tarique](https://www.github.com/RynTrq)
-```markdown
 # 🐦 Angry Birds Game (LibGDX + Java)
 
 Welcome to the **Angry Birds Game** project!  
@@ -15,10 +14,9 @@ To set up, run, and test the project, follow these steps:
 
 ### ✅ Prerequisites
 
-- Java Development Kit (JDK) **version 8 or above**
+- Java Development Kit (JDK) **version 21**
 - **IntelliJ IDEA** (Community or Ultimate)
-- **LibGDX Framework**
-- **JUnit**
+- LibGDX and JUnit dependencies are resolved by Gradle.
 
 ### 📦 Installation & Running the Game
 
@@ -28,6 +26,7 @@ To set up, run, and test the project, follow these steps:
    ```
 
 2. **Open in IntelliJ:**
+   - Open the `AngryBirgGame/` directory, which contains the Gradle build.
    - Launch IntelliJ and open the cloned folder.
    - If prompted, **import as a Gradle project**.
 
@@ -93,7 +92,8 @@ The test suite includes logic checks like `checkWinCondition` and more.
 
 ```
 .
-├── core/
+├── AngryBirgGame/            # Main Gradle project (Java 21)
+│   ├── core/
 │   ├── src/                # Main game logic and screens
 │   └── test/java/          # JUnit test files
 ├── lwjgl3/                 # LWJGL3 launcher code
@@ -126,10 +126,8 @@ The test suite includes logic checks like `checkWinCondition` and more.
 ## 📌 License
 
 This project is for educational purposes. Attribution for any reused assets is appreciated.  
-Feel free to fork and build upon it!
+Check individual source and asset rights before redistributing a derivative.
 
 ---
 
 Happy bird-flinging! 🐦💥🏗️
-```
-
