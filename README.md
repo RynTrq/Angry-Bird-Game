@@ -88,19 +88,19 @@ The test suite includes logic checks like `checkWinCondition` and more.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
+```text
+AngryBirgGame/
+  core/src/main/java/   # Game logic and screens
+  core/src/test/java/   # JUnit tests
+  lwjgl3/              # Desktop launcher
+  assets/              # Game images and sound
+  build.gradle         # Java 21 Gradle build
+LibGdxFilesStatic/      # Separate earlier project tree
 ```
-.
-├── AngryBirgGame/            # Main Gradle project (Java 21)
-│   ├── core/
-│   ├── src/                # Main game logic and screens
-│   └── test/java/          # JUnit test files
-├── lwjgl3/                 # LWJGL3 launcher code
-├── assets/                 # Images, sound files, etc.
-├── build.gradle            # Gradle build config
-├── README.md               # Project documentation
-```
+
+Run Gradle commands from `AngryBirgGame/`. Launch with `./gradlew lwjgl3:run` (or `gradlew.bat lwjgl3:run` on Windows). The historical `LibGdxFilesStatic/` tree is separate.
 
 ---
 
